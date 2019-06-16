@@ -27,12 +27,8 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-		 if (navigator.connection.type == Connection.NONE) {
-      navigator.notification.alert('An internet connection is required to continue');
-    } else {
-      window.location="https://swipebox.in/mobile";
-    }
-        this.receivedEvent('deviceready');
+         window.location="https://swipebox.in/mobile";
+        //this.receivedEvent('deviceready');
 		
 		
 		
