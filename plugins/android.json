@@ -15,6 +15,12 @@
     },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "swipebox.reapairphone"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "swipebox.reapairphone"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "swipebox.reapairphone"
     }
   },
   "dependent_plugins": {}
