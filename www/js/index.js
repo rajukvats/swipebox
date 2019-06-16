@@ -27,8 +27,8 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-         window.location="https://swipebox.in/mobile";
-        //this.receivedEvent('deviceready');
+        // window.location="https://swipebox.in/mobile";
+        this.receivedEvent('deviceready');
 		
 		
 		
